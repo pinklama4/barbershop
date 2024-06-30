@@ -1,4 +1,7 @@
+import './Header.scss'
+
 import logo from '../../images/logo.png'
+import insta from '../../images/insta.png'
 
 export function Header() {
     return(
@@ -13,20 +16,19 @@ export function Header() {
                             <li>
                                 <a href="#">Главная</a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
                                 <a href="#">Мастера</a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
                                 <a href="#">Работы</a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
                                 <a href="#">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src={insta} alt="insta"/>
+                                </a>
                             </li>
                         </ul>
                     </nav>

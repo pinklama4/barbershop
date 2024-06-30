@@ -1,9 +1,12 @@
 import {Header} from "../../components/Header/Header";
+import './Main.scss'
 
 export function Main() {
     return(
        <div className="wrapper">
-           <Header/>
+           <main className="main-screen">
+               <Header/>
+           </main>
        </div>
     )
 }

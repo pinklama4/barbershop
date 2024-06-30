@@ -5,5 +5,28 @@
     background-position: center;
     background-size: cover;
     height: 1038px;
+    .main-content {
+      h1 {
+        margin: 261px 0 462px;
+
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 120%;
+        text-align: center;
+        color: #fff;
+      }
+      .main-content__scroll {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        p {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 140%;
+          color: #fff;
+        }
+      }
+    }
   }
 }

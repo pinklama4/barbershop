@@ -1,11 +1,15 @@
 import {Header} from "../../components/Header/Header";
 import './Main.scss'
 
+import Slider from 'react-slick';
+
+
 import mouse from '../../images/mouse.png'
 import about from '../../images/“.png'
 import hairdresserServicesIMG from '../../images/hairdresser-services.png'
 import manicureServicesIMG from '../../images/manicure-services.png'
 import productIMG from '../../images/product.png'
+import {SimpleSlider} from "../../components/Slider/SimpleSlider";
 export function Main() {
     return(
        <div className="wrapper">
@@ -51,6 +55,19 @@ export function Main() {
                    <img src={productIMG} alt="product"/>
                    <img src={productIMG} alt="product"/>
                    <img src={productIMG} alt="product"/>
+               </div>
+           </section>
+           <section className="gallery">
+               <div className="gallery-content">
+                   <p className="gallery-title">
+                       Наши работы
+                   </p>
+                   <div className="gallery-nav">
+                       <SimpleSlider/>
+                   </div>
+                   <div className="gallery-photos">
+
+                   </div>
                </div>
            </section>
        </div>

@@ -29,4 +29,57 @@
       }
     }
   }
+
+  .about {
+    margin: 120px 0 0 ;
+    .about-content {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      p {
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 130%;
+        color: #fff;
+        text-align: center;
+
+      }
+      p:nth-of-type(1) {
+        margin: 60px 0 20px;
+      }
+      p:nth-of-type(2) {
+        margin: 0 0 99px;
+      }
+    }
+    .main-services {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      p {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 120%;
+        color: #fff;
+
+        margin: 30px 0 0 ;
+      }
+      .main-hairdresser {
+
+      }
+      .main-manicure {
+
+      }
+    }
+  }
+
+
+  .product {
+    margin: 204px 0 0;
+    .product-content {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
+  }
 }

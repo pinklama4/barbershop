@@ -2,7 +2,10 @@ import {Header} from "../../components/Header/Header";
 import './Main.scss'
 
 import mouse from '../../images/mouse.png'
-
+import about from '../../images/“.png'
+import hairdresserServicesIMG from '../../images/hairdresser-services.png'
+import manicureServicesIMG from '../../images/manicure-services.png'
+import productIMG from '../../images/product.png'
 export function Main() {
     return(
        <div className="wrapper">
@@ -16,6 +19,40 @@ export function Main() {
                    </div>
                </div>
            </main>
+           <section className="about">
+               <div className="about-content">
+                   <img src={about} alt="about"/>
+                   <p>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet.
+                       Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit elit,
+                       facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque quam tortor,
+                       malesuada iaculis.
+                   </p>
+                   <p>
+                       Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra rutrum.
+                       Fames ultrices condimentum tortor nec penatibus. Velit imperdiet sapien fringilla vestibulum sit fames.
+                   </p>
+               </div>
+               <div className="main-services">
+                   <div className="main-hairdresser">
+                       <img src={hairdresserServicesIMG} alt="hairdresserServicesIMG"/>
+                       <p>Парикмахерские услуги</p>
+                   </div>
+                   <div className="main-manicure">
+                       <img src={manicureServicesIMG} alt="manicureServicesIMG"/>
+                       <p>Маникюр</p>
+                   </div>
+               </div>
+
+           </section>
+           <section className='product'>
+               <div className="product-content">
+                   <img src={productIMG} alt="product"/>
+                   <img src={productIMG} alt="product"/>
+                   <img src={productIMG} alt="product"/>
+                   <img src={productIMG} alt="product"/>
+               </div>
+           </section>
        </div>
     )
 }

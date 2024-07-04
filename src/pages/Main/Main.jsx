@@ -1,9 +1,5 @@
 import {Header} from "../../components/Header/Header";
 import './Main.scss'
-
-import Slider from 'react-slick';
-
-
 import mouse from '../../images/mouse.png'
 import about from '../../images/“.png'
 import hairdresserServicesIMG from '../../images/hairdresser-services.png'

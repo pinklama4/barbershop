@@ -1,0 +1,15 @@
+.wrapper {
+  .price {
+    max-width: 1296px;
+    margin: 0 auto;
+    .price-content {
+      .price-content__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 134px;
+
+
+      }
+    }
+  }
+}

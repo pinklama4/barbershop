@@ -1,0 +1,36 @@
+.wrapper {
+  .team {
+    .team-title {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #fff;
+
+      margin: 80px 0 80px;
+    }
+    .team-content {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      .team-card {
+        p:nth-of-type(1) {
+          font-weight: 700;
+          font-size: 27px;
+          line-height: 130%;
+          color: #fff;
+
+          margin: 30px 0 0;
+        }
+        p:nth-of-type(2) {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 130%;
+          color: #fff;
+
+          margin: 10px 0 0;
+        }
+      }
+    }
+  }
+}

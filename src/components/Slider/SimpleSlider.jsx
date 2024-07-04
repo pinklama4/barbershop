@@ -5,6 +5,8 @@ import photo from '../../images/work-1.png'
 import photoTwo from '../../images/work-7.png'
 
 import './SimpleSlider.scss'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export  function SimpleSlider() {
     const settings = {

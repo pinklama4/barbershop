@@ -14,10 +14,10 @@ export function Header() {
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Главная</a>
+                                <a href="/">Главная</a>
                             </li>
                             <li>
-                                <a href="#">Мастера</a>
+                                <a href="/ourteam">Мастера</a>
                             </li>
                             <li>
                                 <a href="#">Работы</a>
@@ -26,7 +26,7 @@ export function Header() {
                                 <a href="#">Контакты</a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://google.com">
                                     <img src={insta} alt="insta"/>
                                 </a>
                             </li>

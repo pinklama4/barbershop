@@ -8,8 +8,16 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: Inter, serif;
   box-sizing: border-box;
+}
+p {
+  font-family: Cormorant Garamond, serif;
+}
+a {
+  font-family: Cormorant Garamond, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Cormorant Garamond, serif;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -56,13 +64,6 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* Grouping content
-   ========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
 
 hr {
   box-sizing: content-box; /* 1 */

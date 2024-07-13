@@ -16,24 +16,92 @@ export function Price() {
                 </p>
                 <div className="price-content">
                     <div className="price-content__container">
-                        <div className="master-photo__price">
-                            <img src={masterPhotoPrice} alt=""/>
+                        <div className="services">
+                            <div className="master-photo__price">
+                                <img src={masterPhotoPrice} alt=""/>
+                            </div>
+                            <div className="price-services">
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+
+                            </div>
                         </div>
-                        <div className="price-services">
-                            <PriceNumber/>
+                        <div className="services">
+                            <div className="price-services">
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+
+                            </div>
+                            <div className="master-photo__price">
+                                <img src={masterPhotoPrice} alt=""/>
+                            </div>
+
                         </div>
-                        <div className="price-services">
-                            <PriceNumber/>
+                        <div className="services">
+                            <div className="master-photo__price">
+                                <img src={masterPhotoPrice} alt=""/>
+                            </div>
+                            <div className="price-services">
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+                                <PriceNumber
+                                    nameServices="Женская укладка"
+                                    additionalServices="+ обработк кончинков волос"
+                                    price="1 000 ₽"
+                                />
+
+                            </div>
                         </div>
-                        <div className="master-photo__price">
-                            <img src={masterPhotoPrice} alt=""/>
-                        </div>
-                        <div className="master-photo__price">
-                            <img src={masterPhotoPrice} alt=""/>
-                        </div>
-                        <div className="price-services">
-                            <PriceNumber/>
-                        </div>
+
                     </div>
                 </div>
             </section>

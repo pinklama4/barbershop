@@ -20,7 +20,7 @@ export function Header() {
                                 <a href="/ourteam">Мастера</a>
                             </li>
                             <li>
-                                <a href="#">Работы</a>
+                                <a href="/price">Услуги</a>
                             </li>
                             <li>
                                 <a href="/contacts">Контакты</a>

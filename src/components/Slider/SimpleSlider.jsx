@@ -4,10 +4,10 @@ import Slider from "react-slick";
 import photo from '../../images/work-1.png'
 import photoTwo from '../../images/work-7.png'
 
-import './SimpleSlider.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import './SimpleSlider.scss'
 export  function SimpleSlider() {
     const settings = {
         dots: true,

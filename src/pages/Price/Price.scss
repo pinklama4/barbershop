@@ -13,8 +13,13 @@
       margin: 80px 0 0;
       .price-content__container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        row-gap: 80px;
+        .services {
+          display: flex;
+          align-items: center;
+          gap: 134px;
+          justify-content: center;
+        }
       }
     }
   }

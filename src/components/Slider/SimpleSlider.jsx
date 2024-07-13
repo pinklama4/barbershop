@@ -15,7 +15,29 @@ export  function SimpleSlider() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-
+        // appendDots: dots => (
+        //     <div
+        //         style={{
+        //             backgroundColor: "none",
+        //
+        //
+        //         }}
+        //     >
+        //         <ul style={{ margin: "0px" }}> {dots} </ul>
+        //     </div>
+        // ),
+        // customPaging: i => (
+        //     <div
+        //         style={{
+        //             color: "#fff"
+        //
+        //         }}
+        //     >
+        //         <div className="dots">
+        //             •
+        //         </div>
+        //     </div>
+        // )
     };
     return (
         <Slider {...settings}>

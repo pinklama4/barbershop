@@ -30,6 +30,7 @@ export function Footer() {
                         </a>
                     </div>
                 </div>
+                <p className="copyright">Copyright © 2017 - 2022</p>
             </footer>
         </div>
     )

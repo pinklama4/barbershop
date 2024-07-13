@@ -6,6 +6,7 @@ import hairdresserServicesIMG from '../../images/hairdresser-services.png'
 import manicureServicesIMG from '../../images/manicure-services.png'
 import productIMG from '../../images/product.png'
 import {SimpleSlider} from "../../components/Slider/SimpleSlider";
+import {Footer} from "../../components/Footer/Footer";
 export function Main() {
     return(
        <div className="wrapper">
@@ -66,6 +67,7 @@ export function Main() {
                    </div>
                </div>
            </section>
+           <Footer/>
        </div>
     )
 }

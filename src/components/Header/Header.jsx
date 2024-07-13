@@ -1,7 +1,7 @@
 import './Header.scss'
 
 import logo from '../../images/logo.png'
-import insta from '../../images/insta.png'
+import instagramIMG from '../../images/insta.png'
 
 export function Header() {
     return(
@@ -23,11 +23,11 @@ export function Header() {
                                 <a href="#">Работы</a>
                             </li>
                             <li>
-                                <a href="#">Контакты</a>
+                                <a href="/contacts">Контакты</a>
                             </li>
                             <li>
                                 <a href="https://google.com">
-                                    <img src={insta} alt="insta"/>
+                                    <img src={instagramIMG} alt="insta"/>
                                 </a>
                             </li>
                         </ul>

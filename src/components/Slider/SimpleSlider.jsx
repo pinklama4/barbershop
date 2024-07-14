@@ -1,66 +1,90 @@
-import React from "react";
+import React, {useState} from "react";
 import Slider from "react-slick";
 
-import photo from '../../images/work-1.png'
-import photoTwo from '../../images/work-7.png'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import './SimpleSlider.scss'
+
+import hair1 from '../../images/work-1.png'
+import nail1 from '../../images/work-7.png'
 export  function SimpleSlider() {
+    const [activeTab, setActiveTab] = useState('hair');
+
+    const hairImages = [
+        hair1,
+        hair1,
+        hair1,
+        hair1,
+        hair1,
+        hair1
+    ];
+
+    const nailImages = [
+        nail1,
+        nail1,
+        nail1,
+        nail1,
+        nail1,
+        nail1
+    ];
+
     const settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        // appendDots: dots => (
-        //     <div
-        //         style={{
-        //             backgroundColor: "none",
-        //
-        //
-        //         }}
-        //     >
-        //         <ul style={{ margin: "0px" }}> {dots} </ul>
-        //     </div>
-        // ),
-        // customPaging: i => (
-        //     <div
-        //         style={{
-        //             color: "#fff"
-        //
-        //         }}
-        //     >
-        //         <div className="dots">
-        //             •
-        //         </div>
-        //     </div>
-        // )
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
+
     return (
-        <Slider {...settings}>
-           <div className="gallery-photo__slider">
-               <p>Прикмахерский услуги</p>
-               <div className="gallery-photo__slider-card">
-                   <img src={photo} alt=""/>
-                   <img src={photo} alt=""/>
-                   <img src={photo} alt=""/>
-                   <img src={photo} alt=""/>
-                   <img src={photo} alt=""/>
-               </div>
-
-           </div>
-            <div className="gallery-photo__slider">
-                <p>Маникюр</p>
-                <div className="gallery-photo__slider-card">
-                    <img src={photoTwo} alt=""/>
-                    <img src={photoTwo} alt=""/>
-                    <img src={photoTwo} alt=""/>
-                </div>
+        <div className="slider-container">
+            <div className="buttons-container">
+                <button
+                    className={activeTab === 'hair' ? 'active' : ''}
+                    onClick={() => setActiveTab('hair')}
+                >
+                    Парикмахерские услуги
+                </button>
+                <button
+                    className={activeTab === 'nail' ? 'active' : ''}
+                    onClick={() => setActiveTab('nail')}
+                >
+                    Маникюр
+                </button>
             </div>
-
-        </Slider>
+            <Slider {...settings}>
+                {activeTab === 'hair'
+                    ? hairImages.map((image, index) => (
+                        <div key={index} className="slide">
+                            <img src={image} alt={`Hair ${index + 1}`} />
+                        </div>
+                    ))
+                    : nailImages.map((image, index) => (
+                        <div key={index} className="slide">
+                            <img src={image} alt={`Nail ${index + 1}`} />
+                        </div>
+                    ))}
+            </Slider>
+        </div>
     );
 }

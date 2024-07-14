@@ -3,6 +3,7 @@ import {Header} from "../../components/Header/Header";
 import teamIMG from '../../images/teamIMG.png'
 
 import './OurTeam.scss'
+import {Footer} from "../../components/Footer/Footer";
 export function OurTeam() {
     return(
         <div className="wrapper">
@@ -27,6 +28,7 @@ export function OurTeam() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

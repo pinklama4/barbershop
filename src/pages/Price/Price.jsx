@@ -5,6 +5,7 @@ import {PriceNumber} from "../../components/PriceNumber/PriceNumber";
 
 import './Price.scss'
 import {Header} from "../../components/Header/Header";
+import {Footer} from "../../components/Footer/Footer";
 
 export function Price() {
     return(
@@ -44,7 +45,7 @@ export function Price() {
 
                             </div>
                         </div>
-                        <div className="services">
+                        <div className="services-revers">
                             <div className="price-services">
                                 <PriceNumber
                                     nameServices="Женская укладка"
@@ -105,6 +106,7 @@ export function Price() {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </div>
     )
 }

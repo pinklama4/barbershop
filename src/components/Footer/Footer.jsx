@@ -25,7 +25,7 @@ export function Footer() {
                     </div>
                     <div className="footer-links">
                         <p>Мы в Instagram</p>
-                        <a href="#">
+                        <a href="https://google.com">
                             <img src={instagramIMG} alt="instagram-img"/>
                         </a>
                     </div>

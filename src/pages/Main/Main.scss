@@ -32,6 +32,7 @@
 
   .about {
     margin: 120px 0 0 ;
+    padding: 0 50px;
     .about-content {
       img {
         display: block;
@@ -54,6 +55,7 @@
     }
     .main-services {
       display: flex;
+      flex-wrap: wrap;
       gap: 24px;
       justify-content: center;
       p {
@@ -77,6 +79,7 @@
     margin: 204px 0 0;
     .product-content {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 24px;
     }

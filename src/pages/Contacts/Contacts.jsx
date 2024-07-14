@@ -1,8 +1,11 @@
+import {Header} from "../../components/Header/Header";
+import {Footer} from "../../components/Footer/Footer";
 
 export function Contacts() {
     return (
-        <>
-            Contacts
-        </>
+        <div className="wrapper">
+            <Header/>
+            <Footer/>
+        </div>
     )
 }

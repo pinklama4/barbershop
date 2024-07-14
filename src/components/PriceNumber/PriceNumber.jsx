@@ -5,9 +5,6 @@ import './PriceNumber.scss'
 
 
 export function PriceNumber(props) {
-
-
-
     return(
         <div className="wrapper">
             <div className="price-wrapper">
@@ -26,6 +23,5 @@ export function PriceNumber(props) {
                 </ul>
             </div>
         </div>
-
     )
 }

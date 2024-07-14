@@ -9,8 +9,29 @@
     margin: 80px 0 55px;
   }
   .gallery-photo__slider-card {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 24px;
+
   }
 }
+
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 20px;
+}
+
+.buttons-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.buttons-container button.active,
+.buttons-container button:hover {
+  background-color: #333;
+  color: #fff;
+}
+

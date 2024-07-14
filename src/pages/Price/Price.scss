@@ -17,6 +17,14 @@
         .services {
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
+          gap: 134px;
+          justify-content: center;
+        }
+        .services-revers {
+          display: flex;
+          flex-wrap: wrap-reverse;
+          align-items: center;
           gap: 134px;
           justify-content: center;
         }

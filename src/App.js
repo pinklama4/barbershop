@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/style.scss'
+import './styles/var.scss'
 
 import {Main} from './pages/Main/Main'
 import {OurTeam} from './pages/OurTeam/OurTeam'

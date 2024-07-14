@@ -1,3 +1,5 @@
+@import "src/styles/style";
+
 header {
   padding: 0 20px;
   .header-content {
@@ -16,8 +18,10 @@ header {
     ul {
       display: flex;
       gap: 80px;
+
       li {
         list-style-type: none;
+
         a {
           text-decoration: none;
           color: #fff;
@@ -28,5 +32,11 @@ header {
         }
       }
     }
+  }
+}
+
+@include breakpoint(lg) {
+  nav {
+    display: none;
   }
 }

@@ -1,5 +1,4 @@
 import './Header.scss'
-
 import logo from '../../images/logo.png'
 import instagramIMG from '../../images/insta.png'
 

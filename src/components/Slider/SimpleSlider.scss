@@ -13,6 +13,12 @@
   }
 }
 
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
 
 .buttons-container {
   display: flex;
@@ -26,7 +32,7 @@
   font-size: 16px;
   cursor: pointer;
   border: none;
-
+  border-radius: 10px;
 }
 
 .buttons-container button.active,
@@ -35,3 +41,19 @@
   color: #fff;
 }
 
+.slide {
+  padding: 10px;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(255, 255, 255);
+}

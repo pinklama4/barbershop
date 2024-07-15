@@ -1,0 +1,46 @@
+.wrapper {
+  .contacts {
+    margin: 80px 0 0;
+    .title-contacts {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #fff;
+    }
+    .contacts-content {
+      .map {
+        padding: 0 15px;
+        text-align: center;
+
+        margin: 80px 0 0;
+        img {
+          max-width: 100%;
+        }
+      }
+      .contacts-links-container {
+        text-align: center;
+        margin: 80px 0 0;
+        .contacts-links {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 15px;
+          p {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            color: #fff;
+          }
+          a {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #fff;
+
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -70,7 +70,11 @@ export function Price() {
 
                             </div>
                             <div className="master-photo__price">
-                                <img src={masterPhotoPrice} alt=""/>
+                                <img
+                                    src={masterPhotoPrice}
+                                    alt=""
+
+                                />
                             </div>
 
                         </div>

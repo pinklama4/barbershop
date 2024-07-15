@@ -3,7 +3,8 @@ footer {
   padding: 0 10px;
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: center;
     gap: 92px;
     width: 100%;
     max-width: 1296px;

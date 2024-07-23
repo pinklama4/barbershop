@@ -34,11 +34,17 @@ header {
     }
   }
   .button-burger {
-    display: none;
+      display: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    background: none;
     @include breakpoint(lg) {
       display: block;
     }
-  }
+    }
+
+
 }
 
 

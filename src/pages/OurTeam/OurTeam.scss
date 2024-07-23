@@ -15,6 +15,7 @@
       gap: 24px;
       justify-content: center;
       .team-card {
+        padding: 0 10px;
         p:nth-of-type(1) {
           font-weight: 700;
           font-size: 27px;
@@ -30,6 +31,9 @@
           color: #fff;
 
           margin: 10px 0 0;
+        }
+        img {
+          max-width: 100%;
         }
       }
     }

@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.scss'
+import menuBurgerIMG from '../../images/menu.png'
 import logo from '../../images/logo.png'
 import instagramIMG from '../../images/insta.png'
 import {useState} from "react";
@@ -34,7 +35,9 @@ export function Header() {
                             </li>
                         </ul>
                     </nav>
-                    <button className="button-burger" onClick={() => setOpen(!open)}>Menu</button>
+                    <button className="button-burger" onClick={() => setOpen(!open)}>
+                        <img src={menuBurgerIMG} alt="menu"/>
+                    </button>
                 </div>
             </header>
         </div>

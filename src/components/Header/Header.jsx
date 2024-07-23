@@ -13,7 +13,7 @@ export function Header() {
                     <div className="logo">
                         <img src={logo} alt="logo"/>
                     </div>
-                    <nav className={`menu ${open ? "active" : ""}`}>
+                    <nav className={`menu ${open ? "open" : ""}`}>
                         <ul className="menu-links">
                             <li>
                                 <a href="/">Главная</a>

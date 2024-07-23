@@ -1,11 +1,16 @@
 import React from "react";
 
+//images
 import masterPhotoPrice from "../../images/master-priceIMG.png"
-import {PriceNumber} from "../../components/PriceNumber/PriceNumber";
 
-import './Price.scss'
+//components
+import {PriceNumber} from "../../components/PriceNumber/PriceNumber";
 import {Header} from "../../components/Header/Header";
 import {Footer} from "../../components/Footer/Footer";
+
+//styles
+import './Price.scss'
+
 
 export function Price() {
     return(

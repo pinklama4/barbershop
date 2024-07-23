@@ -1,8 +1,11 @@
+import React from "react";
 import './Header.scss'
 import logo from '../../images/logo.png'
 import instagramIMG from '../../images/insta.png'
+import {useState} from "react";
 
 export function Header() {
+    const [open, setOpen] = useState(false)
     return(
         <div className="wrapper">
             <header>
@@ -10,8 +13,8 @@ export function Header() {
                     <div className="logo">
                         <img src={logo} alt="logo"/>
                     </div>
-                    <nav>
-                        <ul>
+                    <nav className={`menu ${open ? "active" : ""}`}>
+                        <ul className="menu-links">
                             <li>
                                 <a href="/">Главная</a>
                             </li>
@@ -31,8 +34,10 @@ export function Header() {
                             </li>
                         </ul>
                     </nav>
+                    <button className="button-burger" onClick={() => setOpen(!open)}>Menu</button>
                 </div>
             </header>
         </div>
+
     )
 }

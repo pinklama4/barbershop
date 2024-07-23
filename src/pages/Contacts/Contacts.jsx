@@ -1,6 +1,12 @@
 import React from "react";
+
+//styles
 import './Contacts.scss'
+
+//images
 import mapIMG from '../../images/mapIMG.png'
+
+//components
 import {Header} from "../../components/Header/Header";
 import {Footer} from "../../components/Footer/Footer";
 

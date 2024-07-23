@@ -1,12 +1,18 @@
+import React from "react";
+//components
 import {Header} from "../../components/Header/Header";
+import {Footer} from "../../components/Footer/Footer";
+//styles
 import './Main.scss'
+//images
 import mouse from '../../images/mouse.png'
 import about from '../../images/“.png'
 import hairdresserServicesIMG from '../../images/hairdresser-services.png'
 import manicureServicesIMG from '../../images/manicure-services.png'
 import productIMG from '../../images/product.png'
+//library
 import {SimpleSlider} from "../../components/Slider/SimpleSlider";
-import {Footer} from "../../components/Footer/Footer";
+
 export function Main() {
     return(
        <div className="wrapper">

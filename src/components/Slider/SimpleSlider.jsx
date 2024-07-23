@@ -1,12 +1,14 @@
 import React, {useState} from "react";
+
+//library
 import Slider from "react-slick";
 
-
+//styles
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import './SimpleSlider.scss'
 
+//images
 import hair1 from '../../images/work-1.png'
 import nail1 from '../../images/work-7.png'
 export  function SimpleSlider() {

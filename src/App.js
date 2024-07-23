@@ -1,7 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//styles
 import './styles/style.scss'
 import './styles/var.scss'
 
+//pages
 import {Main} from './pages/Main/Main'
 import {OurTeam} from './pages/OurTeam/OurTeam'
 import {Contacts} from './pages/Contacts/Contacts'

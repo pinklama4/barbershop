@@ -1,9 +1,14 @@
+import React from "react";
+//components
 import {Header} from "../../components/Header/Header";
+import {Footer} from "../../components/Footer/Footer";
 
+//images
 import teamIMG from '../../images/teamIMG.png'
 
+//styles
 import './OurTeam.scss'
-import {Footer} from "../../components/Footer/Footer";
+
 export function OurTeam() {
     return(
         <div className="wrapper">

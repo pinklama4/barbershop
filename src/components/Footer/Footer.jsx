@@ -1,6 +1,9 @@
 import React from "react";
+
+//styles
 import './Footer.scss'
 
+//images
 import footerLogoIMG from '../../images/logo-footer.png'
 import instagramIMG from '../../images/insta.png'
 

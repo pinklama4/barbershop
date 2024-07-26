@@ -21,6 +21,9 @@
           flex-wrap: wrap;
           gap: 134px;
           justify-content: center;
+          @include breakpoint(lg) {
+            gap: 50px;
+          }
 
         }
         .services-revers {
@@ -29,6 +32,9 @@
           align-items: center;
           gap: 134px;
           justify-content: center;
+          @include breakpoint(lg) {
+            gap: 50px;
+          }
         }
       }
     }
@@ -39,8 +45,4 @@
     max-width: 100%;
     padding: 0 15px;
   }
-}
-@include breakpoint(lg) {
-
-
 }

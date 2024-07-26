@@ -17,8 +17,8 @@ export function Footer() {
                     </div>
                     <div className="footer-links">
                         <p>Контакты</p>
-                        <a href="tel:+7812123-45-67">+7 (812) 123-45-67</a>
-                        <a href="tel:+7812123-45-67">+7 (812) 123-45-67</a>
+                        <a href="tel:+78121234567">+7 (812) 123-45-67</a>
+                        <a href="tel:+78121234567">+7 (812) 123-45-67</a>
                         <p className='title-footer'>Новоостровский проспект, дом 36 лит. С</p>
                     </div>
                     <div className="footer-links">

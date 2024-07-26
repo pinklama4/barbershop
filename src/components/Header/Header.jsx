@@ -12,7 +12,10 @@ export function Header() {
             <header>
                 <div className="header-content">
                     <div className="logo">
-                        <img src={logo} alt="logo"/>
+                        <a
+                            href="/">
+                              <img src={logo} alt="logo"/>
+                        </a>
                     </div>
                     <nav className={`menu ${open ? "open" : ""}`}>
                         <ul className="menu-links">

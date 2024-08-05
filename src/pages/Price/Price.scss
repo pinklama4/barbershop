@@ -1,0 +1,48 @@
+@import "src/styles/style";
+.wrapper {
+  .price {
+    p {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 120%;
+      text-align: center;
+      color: #fff;
+
+      margin: 80px 0 0;
+    }
+    .price-content {
+      margin: 80px 0 0;
+      .price-content__container {
+        display: grid;
+        row-gap: 80px;
+        .services {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 134px;
+          justify-content: center;
+          @include breakpoint(lg) {
+            gap: 50px;
+          }
+
+        }
+        .services-revers {
+          display: flex;
+          flex-wrap: wrap-reverse;
+          align-items: center;
+          gap: 134px;
+          justify-content: center;
+          @include breakpoint(lg) {
+            gap: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+.master-photo__price {
+  img {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}

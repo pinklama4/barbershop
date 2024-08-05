@@ -1,0 +1,78 @@
+@import "src/styles/style";
+
+header {
+  padding: 0 20px;
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1296px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 23px 10px;
+
+    align-items: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  nav {
+    ul {
+      display: flex;
+      gap: 80px;
+
+      li {
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 130%;
+        }
+      }
+    }
+  }
+  .button-burger {
+      display: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    background: none;
+    @include breakpoint(lg) {
+      display: block;
+    }
+    }
+
+
+}
+
+@include breakpoint(lg) {
+
+  .menu {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    padding: 0 0 0 30px;
+    transition: transform .5s;
+
+    background: black;
+    .menu-links {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 50px 0;
+      a {
+        font-size: 21px;
+      }
+    }
+  }
+  .open {
+    transform: translateX(100%);
+
+  }
+
+
+}
+

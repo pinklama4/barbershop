@@ -6,14 +6,10 @@ import './Contacts.scss'
 //images
 import mapIMG from '../../images/mapIMG.png'
 
-//components
-import {Header} from "../../components/Header/Header";
-import {Footer} from "../../components/Footer/Footer";
 
 export function Contacts() {
     return (
         <div className="wrapper">
-            <Header/>
             <div className="contacts">
                 <div className="contacts-content">
                     <p className="title-contacts">Контакты</p>
@@ -31,7 +27,6 @@ export function Contacts() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

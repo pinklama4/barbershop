@@ -1,0 +1,91 @@
+.wrapper .main-screen {
+  background-image: url("../../images/bgc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1038px;
+}
+.wrapper .main-screen .main-content h1 {
+  margin: 0px 0 462px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+.wrapper .main-screen .main-content .main-content__scroll {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.wrapper .main-screen .main-content .main-content__scroll p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+}
+.wrapper .about {
+  margin: 120px 0 0;
+  padding: 0 50px;
+}
+.wrapper .about .about-content img {
+  display: block;
+  margin: 0 auto;
+}
+.wrapper .about .about-content p {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  color: #fff;
+  text-align: center;
+}
+.wrapper .about .about-content p:nth-of-type(1) {
+  margin: 60px 0 20px;
+}
+.wrapper .about .about-content p:nth-of-type(2) {
+  margin: 0 0 99px;
+}
+.wrapper .about .main-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.wrapper .about .main-services p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #fff;
+  margin: 30px 0 0;
+}
+.wrapper .about .main-services .main-hairdresser img {
+  max-width: 100%;
+}
+.wrapper .about .main-services .main-manicure img {
+  max-width: 100%;
+}
+.wrapper .product {
+  margin: 204px 0 0;
+}
+.wrapper .product .product-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.wrapper .gallery .gallery-content {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.wrapper .gallery .gallery-content .gallery-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  margin: 168px 0 0;
+}
+
+/*# sourceMappingURL=Main.css.map */

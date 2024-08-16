@@ -5,8 +5,7 @@ import masterPhotoPrice from "../../images/master-priceIMG.png"
 
 //components
 import {PriceNumber} from "../../components/PriceNumber/PriceNumber";
-import {Header} from "../../components/Header/Header";
-import {Footer} from "../../components/Footer/Footer";
+;
 
 //styles
 import './Price.scss'
@@ -15,7 +14,6 @@ import './Price.scss'
 export function Price() {
     return(
         <div className="wrapper">
-            <Header/>
             <section className="price">
                 <p>
                      Цены на услуги
@@ -115,7 +113,6 @@ export function Price() {
                     </div>
                 </div>
             </section>
-            <Footer/>
         </div>
     )
 }

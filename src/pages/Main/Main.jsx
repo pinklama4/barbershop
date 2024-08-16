@@ -1,7 +1,6 @@
 import React from "react";
 //components
-import {Header} from "../../components/Header/Header";
-import {Footer} from "../../components/Footer/Footer";
+
 //styles
 import './Main.scss'
 //images
@@ -17,7 +16,6 @@ export function Main() {
     return(
        <div className="wrapper">
            <main className="main-screen">
-               <Header/>
                <div className="main-content">
                    <h1>Barbershop</h1>
                    <div className="main-content__scroll">
@@ -73,7 +71,6 @@ export function Main() {
                    </div>
                </div>
            </section>
-           <Footer/>
        </div>
     )
 }

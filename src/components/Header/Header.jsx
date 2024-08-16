@@ -1,4 +1,4 @@
-import React from "react";
+
 import './Header.scss'
 import menuBurgerIMG from '../../images/menu.png'
 import logo from '../../images/logo.png'

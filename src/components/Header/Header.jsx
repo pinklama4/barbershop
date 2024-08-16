@@ -4,6 +4,7 @@ import menuBurgerIMG from '../../images/menu.png'
 import logo from '../../images/logo.png'
 import instagramIMG from '../../images/insta.png'
 import {useState} from "react";
+import { Link } from 'react-router-dom';
 
 export function Header() {
     const [open, setOpen] = useState(false)
@@ -12,29 +13,29 @@ export function Header() {
             <header>
                 <div className="header-content">
                     <div className="logo">
-                        <a
-                            href="/">
+                        <Link
+                            to="/">
                               <img src={logo} alt="logo"/>
-                        </a>
+                        </Link>
                     </div>
                     <nav className={`menu ${open ? "open" : ""}`}>
                         <ul className="menu-links">
                             <li>
-                                <a href="/">Главная</a>
+                                <Link to="/">Главная</Link>
                             </li>
                             <li>
-                                <a href="/ourteam">Мастера</a>
+                                <Link to="/ourteam">Мастера</Link>
                             </li>
                             <li>
-                                <a href="/price">Услуги</a>
+                                <Link to="/price">Услуги</Link>
                             </li>
                             <li>
-                                <a href="/contacts">Контакты</a>
+                                <Link to="/contacts">Контакты</Link>
                             </li>
                             <li>
-                                <a href="https://google.com">
+                                <Link to="https://google.com">
                                     <img src={instagramIMG} alt="insta"/>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>

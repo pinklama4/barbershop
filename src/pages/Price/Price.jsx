@@ -5,7 +5,7 @@ import masterPhotoPrice from "../../images/master-priceIMG.png"
 
 //components
 import {PriceNumber} from "../../components/PriceNumber/PriceNumber";
-;
+
 
 //styles
 import './Price.scss'

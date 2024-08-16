@@ -4,9 +4,11 @@
   background-position: center;
   background-size: cover;
   height: 1038px;
+  margin: 10px 0 0;
 }
 .wrapper .main-screen .main-content h1 {
-  margin: 0px 0 462px;
+  padding: 270px 0 0;
+  margin: 0 0 462px;
   font-weight: 700;
   font-size: 72px;
   line-height: 120%;
